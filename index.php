@@ -41,7 +41,7 @@
 	            <h2 class="mb-4" style="color:white" ><b>Fazemos o seu<br>melhor tratamento aqui.</b></h2>
 	            <p class="mb-4" style="color:white" >Uma clínica odontológica com atendimento diferenciado oferece tratamentos 
 				desde implantes, próteses, clareamento, aparelho dental, com atendimento para crianças, adolescentes, adultos e idosos.</p>
-	            <p><a href="#" class="btn btn-primary py-3 px-4">Marcar um horário</a></p>
+	            <p><a href="consultar.php/#agendar-section" class="btn btn-primary py-3 px-4">Marcar um horário</a></p>
             </div>
           </div>
         </div>
@@ -140,20 +140,7 @@
 			</div>
 		</section>
 
-	<!-- Locais -->
 
-    <section class="ftco-intro img" style="background-image: url(images/backgrounds/bg-2.jpg);">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-md-9 text-center">
-						<h2>Your Health is Our Priority</h2>
-						<p>We can manage your dream building A small river named Duden flows by their place</p>
-						<p class="mb-0"><a href="#" class="btn btn-white px-4 py-3">Search Places</a></p>
-					</div>
-				</div>
-			</div>
-		</section>
 
 	<!-- Doutores -->
 		

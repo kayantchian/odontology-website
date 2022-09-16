@@ -31,11 +31,11 @@
             <div class="ftco-footer-widget mb-4 ml-md-4">
               <h2 class="ftco-heading-2">Navegação</h2>
               <ul class="list-unstyled">
-                <li><a href="#home-section"><span class="icon-long-arrow-right mr-2"></span>Ínicio</a></li>
-                <li><a href="#sobre-section"><span class="icon-long-arrow-right mr-2"></span>Sobre</a></li>
-                <li><a href="#servicos-section"><span class="icon-long-arrow-right mr-2"></span>Serviços</a></li>
-                <li><a href="#doutore-section"><span class="icon-long-arrow-right mr-2"></span>Doutores</a></li>
-                <li><a href="#contato-section"><span class="icon-long-arrow-right mr-2"></span>Contato</a></li>
+                <li><a href="index.php#home-section"><span class="icon-long-arrow-right mr-2"></span>Ínicio</a></li>
+                <li><a href="index.php#sobre-section"><span class="icon-long-arrow-right mr-2"></span>Sobre</a></li>
+                <li><a href="index.php#servicos-section"><span class="icon-long-arrow-right mr-2"></span>Serviços</a></li>
+                <li><a href="index.php#doutore-section"><span class="icon-long-arrow-right mr-2"></span>Doutores</a></li>
+                <li><a href="index.php#contato-section"><span class="icon-long-arrow-right mr-2"></span>Contato</a></li>
               </ul>
             </div>
           </div>

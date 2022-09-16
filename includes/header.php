@@ -20,19 +20,19 @@
 	<!-- Barra de navegação -->
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" style="align:left" href="index.php"><img src="images/logo.png" width="350" height="150"></a>
+	      <a class="navbar-brand" style="align:left" href="index.php"><img src="images/logo.png" width="250" height="100"></a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Início</span></a></li>
-	          <li class="nav-item"><a href="#sobre-section" class="nav-link"><span>Sobre</span></a></li>
-	          <li class="nav-item"><a href="#servicos-section" class="nav-link"><span>Serviços</span></a></li>
-	          <li class="nav-item"><a href="#doutores-section" class="nav-link"><span>Doutores</span></a></li>
-	          <li class="nav-item"><a href="#contato-section" class="nav-link"><span>Contato</span></a></li>
-	          <li class="nav-item cta mr-md-1"><a href="consulta.php" class="nav-link">Consulta</a></li>
+	          <li class="nav-item"><a href="index.php#home-section" class="nav-link"><span>Início</span></a></li>
+	          <li class="nav-item"><a href="index.php#sobre-section" class="nav-link"><span>Sobre</span></a></li>
+	          <li class="nav-item"><a href="index.php#servicos-section" class="nav-link"><span>Serviços</span></a></li>
+	          <li class="nav-item"><a href="index.php#doutores-section" class="nav-link"><span>Doutores</span></a></li>
+	          <li class="nav-item"><a href="index.php#contato-section" class="nav-link"><span>Contato</span></a></li>
+	          <li class="nav-item cta mr-md-1"><a href="consulta.php#agendar-section" class="nav-link">Consulta</a></li>
 	        </ul>
 	      </div>
 	    </div>
