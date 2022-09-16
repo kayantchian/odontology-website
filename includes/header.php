@@ -1,4 +1,4 @@
-<!-- Contato rápido -->
+<!-- Contato rápido header -->
 <div class="py-1 bg-black top">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
@@ -20,7 +20,7 @@
 	<!-- Barra de navegação -->
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" style="align:left" href="index.php"><img src="images/logo.png" width="600" height="250"></a>
+	      <a class="navbar-brand" style="align:left" href="index.php"><img src="images/logo.png" width="350" height="150"></a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Odonto Fortaleza</title>
+    <title>Home | Odonto Fortaleza</title>
     <meta charset="utf-8">
 	<meta author="Kayan Tchian">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -38,7 +38,7 @@
           <div class="col-md-6 pt-5 ftco-animate">
           	<div class="mt-5">
 				<br><br>
-	            <h1 class="mb-4" style="color:white" >Nós fazemos seu<br>melhor tratamento aqui.</h1>
+	            <h2 class="mb-4" style="color:white" ><b>Fazemos o seu<br>melhor tratamento aqui.</b></h2>
 	            <p class="mb-4" style="color:white" >Uma clínica odontológica com atendimento diferenciado oferece tratamentos 
 				desde implantes, próteses, clareamento, aparelho dental, com atendimento para crianças, adolescentes, adultos e idosos.</p>
 	            <p><a href="#" class="btn btn-primary py-3 px-4">Marcar um horário</a></p>
