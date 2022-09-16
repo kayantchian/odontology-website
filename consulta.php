@@ -47,11 +47,14 @@
 	        	<div class="py-lg-5">
 		        	<div class="row justify-content-center pb-5">
 			          <div class="col-md-10 heading-section ftco-animate">
-                        <form action="#" class="appointment-form ftco-animate">
+                        <form action="sql/receberconsulta.php" method="post" class="appointment-form ftco-animate">
                         <h2 class="mb-4">Agendar</h2>
 		    				<div class="">
 			    				<div class="form-group">
 			    					<input type="text" class="form-control" required name="nome" placeholder="Nome Completo">
+			    				</div>
+                                <div class="form-group">
+			    					<input type="text" class="form-control" required name="cpf" placeholder="CPF">
 			    				</div>
 		    				</div>
 		    				<div class="">
@@ -82,7 +85,7 @@
 			    				</div>
 		    				</div>
 			            <div class="form-group">
-			              <input type="submit" value="Appointment" class="btn btn-secondary py-3 px-4">
+			              <input type="submit" value="Cadastrar" class="btn btn-secondary py-3 px-4">
 			            </div>
 		    				</div>
 		    			</form>
