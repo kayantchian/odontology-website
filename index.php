@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" href="css/ionicons.min.css">
     
-    <link rel="stylesheet" href="css/flaticon.css">
+    <!--<link rel="stylesheet" href="css/flaticon.css">-->
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -62,10 +62,9 @@
 			          <div class="col-md-12 heading-section ftco-animate p-4 p-lg-5">
 			            <h2 class="mb-4">Somos a <span>Melhor</span> opção para você</h2>
 			            <p style="color:black;">
-						Desde sua fundação em 1990, a OdontoFortaleza se destaca pelas mudanças de comportamento e conscientização quanto à necessidade de se manter uma correta saúde bucal, da frequência aos consultórios dentários para a prevenção e, sobretudo, pelos resultados obtidos no restabelecimento dos sorrisos dos pacientes.
+						Desde sua fundação em 1990, a Odonto Fortaleza se destaca pelas mudanças de comportamento e conscientização quanto à necessidade de se manter uma correta saúde bucal, da frequência aos consultórios dentários para a prevenção e, sobretudo, pelos resultados obtidos no restabelecimento dos sorrisos dos pacientes.
 						</p>
-			            <p><a href="#" class="btn btn-primary py-3 px-4">Marcar um horário</a> <a href="#" class="btn btn-secondary py-3 px-4">Contato</a></p>
-			          </div>
+			            </div>
 			        </div>
 		        </div>
 	        </div>
@@ -112,7 +111,7 @@
 			              <div class="icon justify-content-center align-items-center d-flex"><img src="images/icons/Shield-icon.png" with="100" height="100"></div>
 			              <div class="media-body pl-md-4">
 			                <h3 class="heading mb-3">Segurança e Garantia</h3>
-			                <p style="color:black;">Mais de 1 milhão de brasileiros fizeram seus implantes dentários em clínicas OdontoFortaleza</p>
+			                <p style="color:black;">Mais de 1 milhão de brasileiros fizeram seus implantes dentários em clínicas Odonto Fortaleza</p>
 			              </div>
 			            </div>      
 			          </div>
@@ -128,61 +127,13 @@
 			        </div>
 			      </div>
 		      </div>
+			  <!-- Consulta -->
 		      <div class="col-md-5 d-flex">
 	        	<div class="appointment-wrap bg-white p-4 p-md-5 d-flex align-items-center">
-		        	<form action="#" class="appointment-form ftco-animate">
-		        		<h3>Faça sua Consulta</h3>
-		    				<div class="">
-			    				<div class="form-group">
-			    					<input type="text" class="form-control" placeholder="First Name">
-			    				</div>
-			    				<div class="form-group">
-			    					<input type="text" class="form-control" placeholder="Last Name">
-			    				</div>
-		    				</div>
-		    				<div class="">
-		    					<div class="form-group">
-			    					<div class="form-field">
-	          					<div class="select-wrap">
-	                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-	                      <select name="" id="" class="form-control">
-	                      	<option value="">Selecione o serviço</option>
-	                        <option value="">Clareamento Dental</option>
-	                        <option value="">Cliníca Geral e Prevenção</option>
-	                        <option value="">Exames (Documentação Odontológica)</option>
-	                        <option value="">Odontologia (Clínica)</option>
-	                        <option value="">Outros serviços</option>
-	                      </select>
-	                    </div>
-			              </div>
-			    				</div>
-		    					<div class="form-group">
-			    					<input type="text" class="form-control" placeholder="Phone">
-			    				</div>
-		    				</div>
-		    				<div class="">
-			    				<div class="form-group">
-			    					<div class="input-wrap">
-			            		<div class="icon"><span class="ion-md-calendar"></span></div>
-			            		<input type="text" class="form-control appointment_date" placeholder="Date">
-		            		</div>
-			    				</div>
-			    				<div class="form-group">
-			    					<div class="input-wrap">
-			            		<div class="icon"><span class="ion-ios-clock"></span></div>
-			            		<input type="text" class="form-control appointment_time" placeholder="Time">
-		            		</div>
-			    				</div>
-		    				</div>
-		    				<div class="">
-		    					<div class="form-group">
-			              <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+		        	<div class="form-group">
+						  <h3> Faça sua Consulta</h3>
+						  <p><a href="consulta.php" class="btn btn-primary py-3 px-4">Marcar um horário</a></p>
 			            </div>
-			            <div class="form-group">
-			              <input type="submit" value="Appointment" class="btn btn-secondary py-3 px-4">
-			            </div>
-		    				</div>
-		    			</form>
 		    		</div>
 	        </div>
 		    </div>
@@ -310,9 +261,9 @@
 			<div class="container">
 				<div class="row d-flex align-items-center">
 					<div class="col-md-5 heading-section heading-section-white">
-						<span class="subheading">Fun facts</span>
+						<span class="subheading">Curiosidades</span>
 						<h2 class="mb-4">Over 5,100 patients trust us</h2>
-						<p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3">Make an appointment</a></p>
+						<p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3">Marcar uma consulta</a></p>
 					</div>
 					<div class="col-md-7">
 						<div class="row pt-4">
@@ -354,12 +305,13 @@
 			</div>
 		</section>
 
+	<!-- Contato -->
     <section class="ftco-section contact-section" id="contato-section">
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Contact Us</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            <h2 class="mb-4">Contato</h2>
+            <p>Para dúvidas ou mais informações entre em contato com a Odonto Fortaleza</p>
           </div>
         </div>
         <div class="row d-flex contact-info mb-5">
@@ -368,8 +320,8 @@
           		<div class="icon d-flex align-items-center justify-content-center">
           			<span class="icon-map-signs"></span>
           		</div>
-          		<h3 class="mb-4">Address</h3>
-	            <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+          		<h3 class="mb-4">Endereço</h3>
+	            <p style="color:black">R. Júlio Siqueira, 390 - Dionísio Torres, Fortaleza - CE, 60120-320</p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -377,8 +329,8 @@
           		<div class="icon d-flex align-items-center justify-content-center">
           			<span class="icon-phone2"></span>
           		</div>
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
+          		<h3 class="mb-4">Telefone</h3>
+	            <p><a href="tel://1234567920">+ 3257 2356</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -386,8 +338,8 @@
           		<div class="icon d-flex align-items-center justify-content-center">
           			<span class="icon-paper-plane"></span>
           		</div>
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+          		<h3 class="mb-4">Email</h3>
+	            <p><a href="mailto:info@yoursite.com">odontofortaleza@gmail.com</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -396,7 +348,7 @@
           			<span class="icon-globe"></span>
           		</div>
           		<h3 class="mb-4">Website</h3>
-	            <p><a href="#">yoursite.com</a></p>
+	            <p><a href="#">odontofortaleza.com</a></p>
 	          </div>
           </div>
         </div>
@@ -412,7 +364,7 @@
     
   
 
-  <!-- loader -->
+  <!-- animações/loader-->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 

@@ -32,7 +32,7 @@
 	          <li class="nav-item"><a href="#servicos-section" class="nav-link"><span>Serviços</span></a></li>
 	          <li class="nav-item"><a href="#doutores-section" class="nav-link"><span>Doutores</span></a></li>
 	          <li class="nav-item"><a href="#contato-section" class="nav-link"><span>Contato</span></a></li>
-	          <li class="nav-item cta mr-md-1"><a href="appointment.html" class="nav-link">Consulta</a></li>
+	          <li class="nav-item cta mr-md-1"><a href="consulta.php" class="nav-link">Consulta</a></li>
 	        </ul>
 	      </div>
 	    </div>
