@@ -41,7 +41,7 @@
 	            <h2 class="mb-4" style="color:white" ><b>Fazemos o seu<br>melhor tratamento aqui.</b></h2>
 	            <p class="mb-4" style="color:white" >Uma clínica odontológica com atendimento diferenciado oferece tratamentos 
 				desde implantes, próteses, clareamento, aparelho dental, com atendimento para crianças, adolescentes, adultos e idosos.</p>
-	            <p><a href="consultar.php/#agendar-section" class="btn btn-primary py-3 px-4">Marcar um horário</a></p>
+	            <p><a href="consulta.php#agendar-section" class="btn btn-primary py-3 px-4">Marcar um horário</a></p>
             </div>
           </div>
         </div>
@@ -132,7 +132,7 @@
 	        	<div class="appointment-wrap bg-white p-4 p-md-5 d-flex align-items-center">
 		        	<div class="form-group">
 						  <h3> Faça sua Consulta</h3>
-						  <p><a href="consulta.php" class="btn btn-primary py-3 px-4">Marcar um horário</a></p>
+						  <p><a href="consulta.php#agendar-section" class="btn btn-primary py-3 px-4">Marcar um horário</a></p>
 			            </div>
 		    		</div>
 	        </div>
@@ -373,4 +373,4 @@
   <script src="js/main.js"></script>
     
   </body>
-</html>
+</html>	

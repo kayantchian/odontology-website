@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Inputs Máscara-->
     <script src="js/mascara.js"></script>
   </head>
 
@@ -47,14 +48,14 @@
 	        	<div class="py-lg-5">
 		        	<div class="row justify-content-center pb-5">
 			          <div class="col-md-10 heading-section ftco-animate">
-                        <form action="sql/receberconsulta.php" method="post" class="appointment-form ftco-animate">
+                        <form action="receberconsulta.php" method="post" class="appointment-form ftco-animate">
                         <h2 class="mb-4">Agendar</h2>
 		    				<div class="">
 			    				<div class="form-group">
 			    					<input type="text" class="form-control" required name="nome" placeholder="Nome Completo">
 			    				</div>
                                 <div class="form-group">
-			    					<input type="text" class="form-control" required name="cpf" placeholder="CPF">
+			    					<input type="text" class="form-control" onkeypress="cpf_mask()" id="pf" required name="cpf" placeholder="CPF">
 			    				</div>
 		    				</div>
 		    				<div class="">
@@ -62,7 +63,7 @@
 			    					<div class="form-field">
 	          					<div class="select-wrap">
 	                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-	                      <select name="" id="" name="servico" class="form-control" required>
+	                      <select id="servico" name="servico" class="form-control" required>
 	                      	<option value="">Selecione o serviço</option>
 	                        <option value="">Clareamento Dental</option>
 	                        <option value="">Cliníca Geral e Prevenção</option>
