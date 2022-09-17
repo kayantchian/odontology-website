@@ -148,8 +148,8 @@
 			<div class="container-fluid px-5">
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4">Our Qualified Doctors</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+            <h2 class="mb-4">Nossos profissionais qualificados</h2>
+            <p>Uma equipe formada pelos mais qualificados e profissionais da área Odontológica brasileira.</p>
           </div>
         </div>	
 				<div class="row">
@@ -160,16 +160,16 @@
 							</div>
 							<div class="text pt-3 text-center">
 								<h3 class="mb-2">Dr. Lloyd Wilson</h3>
-								<span class="position mb-2">Neurologist</span>
+								<span class="position mb-2">Odontologia</span>
 								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<p>Profissional com mais de 10 anos de experiência e com inúmeros certificados internacionais.</p>
 									<ul class="ftco-social text-center">
 		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
 		              </ul>
-		              <p><a href="#" class="btn btn-primary">Book now</a></p>
+		              <p><a href="#" class="btn btn-primary">Contato</a></p>
 	              </div>
 							</div>
 						</div>
@@ -181,16 +181,16 @@
 							</div>
 							<div class="text pt-3 text-center">
 								<h3 class="mb-2">Dr. Rachel Parker</h3>
-								<span class="position mb-2">Ophthalmologist</span>
+								<span class="position mb-2">Clínico Geral</span>
 								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<p>Formado em Odontologia pela UFC, com mais de 10 anos de experiência.</p>
 									<ul class="ftco-social text-center">
 		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
 		              </ul>
-		              <p><a href="#" class="btn btn-primary">Book now</a></p>
+		              <p><a href="#" class="btn btn-primary">Contato</a></p>
 	              </div>
 							</div>
 						</div>
@@ -204,14 +204,14 @@
 								<h3 class="mb-2">Dr. Ian Smith</h3>
 								<span class="position mb-2">Dentist</span>
 								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<p>Formado na UECE, com mais de 5 anos de experiência</p>
 									<ul class="ftco-social text-center">
 		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
 		              </ul>
-		              <p><a href="#" class="btn btn-primary">Book now</a></p>
+		              <p><a href="#" class="btn btn-primary">Contato</a></p>
 	              </div>
 							</div>
 						</div>
@@ -223,16 +223,16 @@
 							</div>
 							<div class="text pt-3 text-center">
 								<h3 class="mb-2">Dr. Alicia Henderson</h3>
-								<span class="position mb-2">Pediatrician</span>
+								<span class="position mb-2">Odontopediatria.</span>
 								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<p>Formado na UFC, com mais de 6 anos de experiência.</p>
 									<ul class="ftco-social text-center">
 		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
 		              </ul>
-		              <p><a href="#" class="btn btn-primary">Book now</a></p>
+		              <p><a href="#" class="btn btn-primary">Contato</a></p>
 	              </div>
 							</div>
 						</div>
@@ -241,7 +241,7 @@
 			</div>
 		</section>
 
-		<!-- Experiência -->
+		<!-- Experiência 
 
 		<section class="ftco-facts img ftco-counter" style="background-image: url(images/backgrounds/bg.jpg);">
 			<div class="overlay"></div>
@@ -291,7 +291,7 @@
 				</div>
 			</div>
 		</section>
-
+-->
 	<!-- Contato -->
     <section class="ftco-section contact-section" id="contato-section">
       <div class="container">
@@ -335,7 +335,7 @@
           			<span class="icon-globe"></span>
           		</div>
           		<h3 class="mb-4">Website</h3>
-	            <p><a href="#">odontofortaleza.com</a></p>
+	            <p><a href="index.php">odontofortaleza.com</a></p>
 	          </div>
           </div>
         </div>
