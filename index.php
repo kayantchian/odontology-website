@@ -180,7 +180,7 @@
 								<div class="img align-self-stretch" style="background-image: url(images/doc-2.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
-								<h3 class="mb-2">Dr. Rachel Parker</h3>
+								<h3 class="mb-2">Dr. Osvaldo Filho</h3>
 								<span class="position mb-2">Clínico Geral</span>
 								<div class="faded">
 									<p>Formado em Odontologia pela UFC, com mais de 10 anos de experiência.</p>
@@ -201,7 +201,7 @@
 								<div class="img align-self-stretch" style="background-image: url(images/doc-3.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
-								<h3 class="mb-2">Dr. Ian Smith</h3>
+								<h3 class="mb-2">Dr. Eric Jacomino </h3>
 								<span class="position mb-2">Dentista</span>
 								<div class="faded">
 									<p>Formado na UECE, com mais de 5 anos de experiência<br></p>
@@ -222,7 +222,7 @@
 								<div class="img align-self-stretch" style="background-image: url(images/doc-4.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
-								<h3 class="mb-2">Dr. Alicia Henderson</h3>
+								<h3 class="mb-2">Dra. Carmen Cristina</h3>
 								<span class="position mb-2">Odontopediatria.</span>
 								<div class="faded">
 									<p>Formado na UFC, com mais de 6 anos de experiência.<br></p>
