@@ -52,7 +52,7 @@
 			    					<input type="text" class="form-control" required name="nome" placeholder="Nome Completo">
 			    				</div>
                                 <div class="form-group">
-			    					<input type="text" class="form-control" maxlength="14" onkeypress="cpf_maskara()" id="cpf" required name="cpf" placeholder="CPF">
+			    					<input type="text" class="form-control" minlength="14" maxlength="14" onkeypress="cpf_maskara()" id="cpf" required name="cpf" placeholder="CPF">
 			    				</div>
 		    				</div>
 		    				<div class="">
@@ -72,7 +72,7 @@
 			              </div>
 			    				</div>
 		    					<div class="form-group">
-			    					<input type="text" id="telefone" maxlength="14" onkeypress="telefone_mask()" class="form-control" name="telefone" placeholder="Telefone" required>
+			    					<input type="text" id="telefone" minlength="14" maxlength="14" onkeypress="telefone_mask()" class="form-control" name="telefone" placeholder="Telefone" required>
 			    				</div>
 		    				</div>
 		    				<div class="">

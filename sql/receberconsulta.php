@@ -33,13 +33,11 @@ $servico = $_POST['servico'];
 $data = $_POST['data'];
 $horario = $_POST['horario'];
 
-echo '<script>alert($servico,$data,$hora)</script>';
 
 $inserir = $con -> query ("INSERT INTO clientes VALUES ('0', '$nome', '$cpf', '$telefone', '$servico','$data','$horario')");
     if ($inserir) {
-        echo '<script>alert("CADASTRO REALIZADO COM SUCESSO!")</script>';
         header("location: ../index.php");
     } else {
-        echo '<script>alert("NÃO FOI POSSÍVEL REALIZAR CADASTRO!")</script>';
+        echo '<script>alert("NÃO FOI POSSÍVEL REALIZAR CADASTRO!");</script>';
     }
 ?>
