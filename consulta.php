@@ -21,9 +21,6 @@
     <!--<link rel="stylesheet" href="css/flaticon.css">-->
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- Inputs Máscara-->
-    <script src="js/mascara.js"></script>
   </head>
 
 <body>  
@@ -55,7 +52,7 @@
 			    					<input type="text" class="form-control" required name="nome" placeholder="Nome Completo">
 			    				</div>
                                 <div class="form-group">
-			    					<input type="text" class="form-control" onkeypress="cpf_maskara()" id="cpf" required name="cpf" placeholder="CPF">
+			    					<input type="text" class="form-control" maxlength="14" onkeypress="cpf_maskara()" id="cpf" required name="cpf" placeholder="CPF">
 			    				</div>
 		    				</div>
 		    				<div class="">
@@ -65,17 +62,17 @@
 	                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
 	                      <select id="servico" name="servico" class="form-control" required>
 	                      	<option value="">Selecione o serviço</option>
-	                        <option value="">Clareamento Dental</option>
-	                        <option value="">Cliníca Geral e Prevenção</option>
-	                        <option value="">Exames (Documentação Odontológica)</option>
-	                        <option value="">Odontologia (Clínica)</option>
-	                        <option value="">Outros serviços</option>
+	                        <option value="Clareamento Dental">Clareamento Dental</option>
+	                        <option value="Cliníca Geral e Prevenção">Cliníca Geral e Prevenção</option>
+	                        <option value="Exames">Exames (Documentação Odontológica)</option>
+	                        <option value="Odontologia (Clínica)">Odontologia (Clínica)</option>
+	                        <option value="Outros serviços">Outros serviços</option>
 	                      </select>
 	                    </div>
 			              </div>
 			    				</div>
 		    					<div class="form-group">
-			    					<input type="text" id="telefone" max="13" onkeypress="telefone_mask()" class="form-control" name="telefone" placeholder="Telefone" required>
+			    					<input type="text" id="telefone" maxlength="14" onkeypress="telefone_mask()" class="form-control" name="telefone" placeholder="Telefone" required>
 			    				</div>
 		    				</div>
 		    				<div class="">
@@ -124,5 +121,6 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+  <!-- Inputs Máscara-->
+  <script src="js/mask.js"></script>
 </body>

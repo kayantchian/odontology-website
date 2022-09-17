@@ -12,7 +12,6 @@ function telefone_mask() {
 
 function cpf_maskara() {
     var tamanho = document.getElementById('cpf').value.length;
-    alert(tamanho);
     var cpf = document.getElementById('cpf').value;
     if (tamanho == 3) {
         cpf += ".";
