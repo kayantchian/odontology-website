@@ -149,7 +149,7 @@
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
             <h2 class="mb-4">Nossos profissionais qualificados</h2>
-            <p>Uma equipe formada pelos mais qualificados e profissionais da área Odontológica brasileira.</p>
+            <p style="color: black">Uma equipe formada pelos mais qualificados e profissionais da área Odontológica brasileira.</p>
           </div>
         </div>	
 				<div class="row">
@@ -204,7 +204,7 @@
 								<h3 class="mb-2">Dr. Ian Smith</h3>
 								<span class="position mb-2">Dentist</span>
 								<div class="faded">
-									<p>Formado na UECE, com mais de 5 anos de experiência</p>
+									<p>Formado na UECE, com mais de 5 anos de experiência<br></p>
 									<ul class="ftco-social text-center">
 		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -225,7 +225,7 @@
 								<h3 class="mb-2">Dr. Alicia Henderson</h3>
 								<span class="position mb-2">Odontopediatria.</span>
 								<div class="faded">
-									<p>Formado na UFC, com mais de 6 anos de experiência.</p>
+									<p>Formado na UFC, com mais de 6 anos de experiência.<br></p>
 									<ul class="ftco-social text-center">
 		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -298,7 +298,7 @@
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h2 class="mb-4">Contato</h2>
-            <p>Para dúvidas ou mais informações entre em contato com a Odonto Fortaleza</p>
+            <p style="color: black">Para dúvidas ou mais informações entre em contato com a Odonto Fortaleza</p>
           </div>
         </div>
         <div class="row d-flex contact-info mb-5">
