@@ -180,11 +180,7 @@ h2 {
                 <td><?php echo $dados['email']; ?> </td>
                 <td><?php echo $dados['telefone']; ?> </td>
                 <td><?php echo $dados['cpf']; ?> </td>
-                <td><?php echo $dados['rg']; ?> </td>
-                <td><?php echo $dados['rua']; ?> </td>
-                <td><?php echo $dados['bairro']; ?> </td>
-                <td><?php echo $dados['num']; ?> </td>
-                <td><?php echo $dados['cidade']; ?> </td>
+                <td><?php echo $dados['servico']; ?> </td>
                 <td> 
                 <a href="deletar.php?id=<?php echo $dados['id'];?>">
                 <i class="bi-person-x"></i>
