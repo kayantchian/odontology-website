@@ -202,7 +202,7 @@
 							</div>
 							<div class="text pt-3 text-center">
 								<h3 class="mb-2">Dr. Ian Smith</h3>
-								<span class="position mb-2">Dentist</span>
+								<span class="position mb-2">Dentista</span>
 								<div class="faded">
 									<p>Formado na UECE, com mais de 5 anos de experiência<br></p>
 									<ul class="ftco-social text-center">
