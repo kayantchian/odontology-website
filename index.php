@@ -156,7 +156,7 @@
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/doutores/doc-1.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3 class="mb-2">Dr. Osvaldo Filho</h3>
@@ -177,7 +177,7 @@
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-2.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/doutores/doc-2.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3 class="mb-2">Dra. Débora Ayala</h3>
@@ -198,7 +198,7 @@
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-3.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/doutores/doc-3.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3 class="mb-2">Dr. Eric Jacomino </h3>
@@ -219,7 +219,7 @@
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-4.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/doutores/doc-4.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3 class="mb-2">Dra. Carmen Cristina</h3>
