@@ -1,23 +1,24 @@
 <?php 
-    if(!empty($_GET['Cod']))
+    if(!empty($_GET['id']))
     {
-        include '../sql/conexao.php';
+        include_once '../sql/conexao.php';
 
-        $id = $_GET['Cod'];
+        $id = $_GET['id'];
 
-        $sqlselect = "SELECT * FROM clientes WHERE Cod = $id";
-        $resultado = $con->query($sqlselect);
+        $sqlSelect = "SELECT * FROM clientes WHERE id = $id";
+        $resultado = $con->query($sqlSelect);
+
 
         if($resultado-> num_rows >0)
-        {   while($user_data = mysqli_fetch_assoc($resultado))
+        {   
+            while($user_data = mysqli_fetch_assoc($resultado))
             {
-            $nome = $user_data['nome'];
-            $cpf = $user_data['cpf'];
-            $telefone = $user_data['telefone'];
-            $servico = $user_data['servico'];
-            $data = $user_data['data'];
-            $horario = $user_data['horario'];
-            
+            $nome = $user_data['Nome'];
+            $cpf = $user_data['CPF'];
+            $telefone = $user_data['Telefone'];
+            $servico = $user_data['Servico'];
+            $data = $user_data['Data'];
+            $horario = $user_data['Horario'];
         }
             
         }
@@ -26,9 +27,8 @@
         }
     }
     
-    
-    
 ?>
+
 
 <head>
     <title>Consulta | Odonto Fortaleza</title>
@@ -80,14 +80,14 @@
 		<section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-light" id="agendar-section">
 			<div class="container">
 			          <div class="col-md-10 heading-section">
-                        <form action="sql/receberconsulta.php" method="post" class="appointment-form">
+                        <form action="saveedit.php" method="post" class="appointment-form">
                         <h2 class="text-center text-dark mt-5">Editar </h2>
 		    				<div class="">
 			    				<div class="form-group">
-			    					<input type="text" class="form-control" required name="nome" placeholder="Nome Completo" value="<?php echo $nome ?>">
+			    					<input type="text" class="form-control" name="nome" placeholder="Nome Completo" value="<?php echo $nome ?>">
 			    				</div>
                                 <div class="form-group">
-			    					<input type="text" class="form-control" minlength="14" maxlength="14" onkeypress="cpf_maskara()" id="cpf" required name="cpf" placeholder="CPF" value="<?php echo $cpf ?>">
+			    					<input type="text" class="form-control" minlength="14" maxlength="14" onkeypress="cpf_maskara()" id="cpf" name="cpf" placeholder="CPF" value="<?php echo $cpf ?>">
 			    				</div>
 		    				</div>
 		    				<div class="">
@@ -95,27 +95,28 @@
 			    					<div class="form-field">
 	          					<div class="select-wrap">
 	                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-	                      <select id="servico" name="servico" class="form-control" required>
+
+	                      <select id="servico" name="servico" class="form-control" selected="<?php echo $nome ?>">
 	                      	<option value="">Selecione o serviço</option>
-	                        <option value="Clareamento Dental">Clareamento Dental</option>
-	                        <option value="Cliníca Geral e Prevenção">Cliníca Geral e Prevenção</option>
-	                        <option value="Exames">Exames (Documentação Odontológica)</option>
-	                        <option value="Odontologia (Clínica)">Odontologia (Clínica)</option>
-	                        <option value="Outros serviços">Outros serviços</option>
+	                        <option value="Clareamento Dental" <?php if($servico == 'Clareamento Dental'): ?> selected="selected"<?php endif; ?>>Clareamento Dental</option>
+	                        <option value="Cliníca Geral e Prevenção" <?php if($servico == 'Cliníca Geral e Prevenção'): ?> selected="selected"<?php endif; ?>>Cliníca Geral e Prevenção</option>
+	                        <option value="Exames" <?php if($servico == 'Exames'): ?> selected="selected"<?php endif; ?>>Exames (Documentação Odontológica)</option>
+	                        <option value="Odontologia (Clínica)" <?php if($servico == 'Odontologia (Clínica)'): ?> selected="selected"<?php endif; ?>>Odontologia (Clínica)</option>
+	                        <option value="Outros serviços" <?php if($servico == 'Outros serviços'): ?> selected="selected"<?php endif; ?>>Outros serviços</option>
 	                      </select>
 	                    </div>
 			              </div>
 			    				</div>
 		    					<div class="form-group">
-			    					<input type="text" id="telefone" minlength="14" maxlength="14" onkeypress="telefone_mask()" class="form-control" name="telefone" placeholder="Telefone" required>
+			    					<input type="text" id="telefone" minlength="14" maxlength="14" onkeypress="telefone_mask()" class="form-control" name="telefone" placeholder="Telefone" value="<?php echo $telefone ?>">
 			    				</div>
 		    				</div>
 		    				<div class="">
 			    				<div class="form-group">
 			    					<div class="input-wrap">
-			            		<input type="date" class="form-control appointment_date" name="data" required placeholder="Date">
+			            		<input type="date" class="form-control appointment_date" name="data" placeholder="Date" value="<?php echo $data ?>">
 								<div class="icon"><span class="ion-ios-arrow-down"></span></div>
-	                      <select id="horario" name="horario" class="form-control" required>
+	                      <select id="horario" name="horario" class="form-control" value="<?php echo $horario ?>">
 	                      	<option value="">Horário</option>
 	                        <option value="11:00">11:00</option>
 	                        <option value="12:30">12:00</option>
@@ -126,7 +127,8 @@
 			    				</div>
 		    				</div>
 			            <div class="form-group">
-			              <input type="submit" value="Atualizar" class="btn btn-secondary py-3 px-4">
+                          <input type="hidden" name="id" value=<?php echo $id ?>>
+			              <input type="submit" name="update" value="Atualizar" class="btn btn-secondary py-3 px-4">
 			            </div>
 		    				</div>
 		    			</form>
@@ -156,4 +158,4 @@
   <script src="../js/main.js"></script>
   <!-- Inputs Máscara-->
   <script src="../js/mask.js"></script>
-</body> 
+</body>
