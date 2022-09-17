@@ -36,7 +36,7 @@
 			</div>
 		</section>
 
-	<!-- Serviços -->
+	<!-- Agendar -->
 
 		<section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-light" id="agendar-section">
 			<div class="container">
