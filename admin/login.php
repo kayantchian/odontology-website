@@ -61,7 +61,7 @@ a{
             <div class="mb-3">
               <input type="password" class="form-control" id="password" placeholder="Senha" name="senha">
             </div>
-            <div class="text-center"><button type="submit" name="action" class="btn btn-primary py-2 px-4 mb-2 w-100"> Acessar</button></div> </button></div>
+            <div class="text-center"><button type="submit" name="submit" class="btn btn-primary py-2 px-4 mb-2 w-100"> Acessar</button></div> </button></div>
             </div>
           </form>
         </div>

@@ -45,7 +45,7 @@
 	        	<div class="py-lg-5">
 		        	<div class="row justify-content-center pb-5">
 			          <div class="col-md-10 heading-section ftco-animate">
-                        <form action="receberconsulta.php" method="post" class="appointment-form ftco-animate">
+                        <form action="sql/receberconsulta.php" method="post" class="appointment-form ftco-animate">
                         <h2 class="mb-4">Agendar</h2>
 		    				<div class="">
 			    				<div class="form-group">
@@ -79,7 +79,15 @@
 			    				<div class="form-group">
 			    					<div class="input-wrap">
 			            		<input type="date" class="form-control appointment_date" name="data" required placeholder="Date">
-			            		<input type="time" class="form-control appointment_time" name="horario" required placeholder="Time">
+								<div class="icon"><span class="ion-ios-arrow-down"></span></div>
+	                      <select id="horario" name="horario" class="form-control" required>
+	                      	<option value="">Horário</option>
+	                        <option value="11:00">11:00</option>
+	                        <option value="12:30">12:00</option>
+	                        <option value="16:30">16:30</option>
+	                        <option value="18:00">18:00</option>
+	                      </select>
+	                    </div>
 			    				</div>
 		    				</div>
 			            <div class="form-group">

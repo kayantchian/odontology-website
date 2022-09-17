@@ -1,9 +1,11 @@
 <?php
-if(!isset($_SESSION)) {
-    session_start();
+ if((!isset($_SESSION['user']) == true) && (!isset($_SESSION['senha']) == true)) {
+    die("<h1 align='center'>Erro: Sem autorização<h1>");
+    unset($_SESSION['user']);
+    unset($_SESSION['senha']);
+    header("location: login.php");
 }
- if(!isset($_SESSION['id'])) {
-    die("Erro: Sem autorização");
-}
+
+$logado = $_SESSION['user'];
 
 ?>

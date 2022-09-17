@@ -1,6 +1,10 @@
+<?php
+    session_start();
+    include 'protect.php';
+?>
 
 <head>
-<title>Autenticando | Odonto Fortaleza</title>
+<title>Admin | Odonto Fortaleza</title>
     <meta charset="utf-8">
 	<meta author="Kayan Tchian">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
