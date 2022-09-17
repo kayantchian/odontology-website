@@ -34,7 +34,7 @@
                 <li><a href="index.php#home-section"><span class="icon-long-arrow-right mr-2"></span>Ínicio</a></li>
                 <li><a href="index.php#sobre-section"><span class="icon-long-arrow-right mr-2"></span>Sobre</a></li>
                 <li><a href="index.php#servicos-section"><span class="icon-long-arrow-right mr-2"></span>Serviços</a></li>
-                <li><a href="index.php#doutore-section"><span class="icon-long-arrow-right mr-2"></span>Doutores</a></li>
+                <li><a href="index.php#doutores-section"><span class="icon-long-arrow-right mr-2"></span>Doutores</a></li>
                 <li><a href="index.php#contato-section"><span class="icon-long-arrow-right mr-2"></span>Contato</a></li>
               </ul>
             </div>
