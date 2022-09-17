@@ -55,7 +55,7 @@
 			    					<input type="text" class="form-control" required name="nome" placeholder="Nome Completo">
 			    				</div>
                                 <div class="form-group">
-			    					<input type="text" class="form-control" onkeypress="cpf_mask()" id="pf" required name="cpf" placeholder="CPF">
+			    					<input type="text" class="form-control" onkeypress="cpf_maskara()" id="cpf" required name="cpf" placeholder="CPF">
 			    				</div>
 		    				</div>
 		    				<div class="">

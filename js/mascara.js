@@ -10,12 +10,12 @@ function telefone_mask() {
     document.getElementById('telefone').value = telefone;
 }
 
-function cpf_mask() {
-    var tamanho = document.getElementById('pf').value.length;
+function cpf_maskara() {
+    var tamanho = document.getElementById('cpf').value.length;
     alert(tamanho);
-    var cpf = document.getElementById('pf').value;
-    if (tamannho == 3) {
-        cpf += '.';
+    var cpf = document.getElementById('cpf').value;
+    if (tamanho == 3) {
+        cpf += ".";
     }
     else if (tamanho == 7) {
         cpf += '.';
@@ -23,5 +23,5 @@ function cpf_mask() {
     else if (tamanho == 11) {
         cpf += '-';
     }
-    document.getElementById('pf').value = cpf;
+    document.getElementById('cpf').value = cpf;
 }
