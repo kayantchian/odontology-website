@@ -159,7 +159,7 @@
 								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
-								<h3 class="mb-2">Dr. Lloyd Wilson</h3>
+								<h3 class="mb-2">Dr. Osvaldo Filho</h3>
 								<span class="position mb-2">Odontologia</span>
 								<div class="faded">
 									<p>Profissional com mais de 10 anos de experiência e com inúmeros certificados internacionais.</p>
@@ -180,7 +180,7 @@
 								<div class="img align-self-stretch" style="background-image: url(images/doc-2.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
-								<h3 class="mb-2">Dr. Osvaldo Filho</h3>
+								<h3 class="mb-2">Dra. Débora Ayala</h3>
 								<span class="position mb-2">Clínico Geral</span>
 								<div class="faded">
 									<p>Formado em Odontologia pela UFC, com mais de 10 anos de experiência.</p>
