@@ -1,19 +1,12 @@
-# Site Odontologia
-Um projeto de Escola: fazer um site com sistema de cadastro de clientes, painel de admin, etc.
-
 <p>
 ✔ Cadastrar clientes <br>
 ✔ Login (adm)  <br>
 ✔ Editar cadastros (adm) <br>
 ✔ Exibir cadastros (adm) <br>
-<<<<<<< HEAD
 ✔ Deletar cadastros (adm) <br>
 ✔ Pesquisar cadastros (adm) <br>
-=======
-❌ Deletar cadastros (adm) <br>
-❌ Pesquisar cadastros (adm)
->>>>>>> refs/remotes/origin/main
-</p> 
+</p>
+ 
 ---
 
 # Ferramentas
