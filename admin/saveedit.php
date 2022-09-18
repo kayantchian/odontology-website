@@ -1,4 +1,7 @@
 <?php
+    session_start();
+    include 'protect.php';
+    
     include_once('../sql/conexao.php');
 
     if(isset($_POST['update'])){

@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="../css/style.css">
 
 <?php
-include "../includes/header.php";
 include "conexao.php";
 ?>
 
@@ -38,6 +37,7 @@ $inserir = $con -> query ("INSERT INTO clientes VALUES ('0', '$nome', '$cpf', '$
     if ($inserir) {
         header("location: ../index.php");
     } else {
+        header("location: ../consulta.php");
         echo '<script>alert("NÃO FOI POSSÍVEL REALIZAR CADASTRO!");</script>';
     }
 ?>

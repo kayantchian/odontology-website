@@ -1,41 +1,7 @@
 <?php 
-	session_start();
+    session_start();
     include 'protect.php';
-		
-    if(!empty($_GET['id']))
-    {
-        include_once '../sql/conexao.php';
-
-        $id = $_GET['id'];
-
-        $sqlSelect = "SELECT * FROM clientes WHERE id = $id";
-        $resultado = $con->query($sqlSelect);
-
-
-        if($resultado-> num_rows >0)
-        {   
-            while($user_data = mysqli_fetch_assoc($resultado))
-            {
-            $nome = $user_data['Nome'];
-            $cpf = $user_data['CPF'];
-            $telefone = $user_data['Telefone'];
-            $servico = $user_data['Servico'];
-            $data = $user_data['Data'];
-            $horario = $user_data['Horario'];
-        }
-            
-        }
-        else{
-            header("location: painel.php");
-        }
-    }
-    else{
-        header("location: painel.php");
-    }
-    
 ?>
-
-
 <head>
     <title>Consulta | Odonto Fortaleza</title>
     <meta charset="utf-8">
@@ -86,14 +52,14 @@
 		<section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-light" id="agendar-section">
 			<div class="container">
 			          <div class="col-md-10 heading-section">
-                        <form action="saveedit.php" method="post" class="appointment-form">
-                        <h2 class="text-center text-dark mt-5">Editar </h2>
+                        <form action="savecadastro.php" method="post" class="appointment-form">
+                        <h2 class="text-center text-dark mt-5">Cadastrar</h2>
 		    				<div class="">
 			    				<div class="form-group">
-			    					<input type="text" class="form-control" name="nome" placeholder="Nome Completo" value="<?php echo $nome ?>">
+			    					<input type="text" class="form-control" name="nome" placeholder="Nome Completo">
 			    				</div>
                                 <div class="form-group">
-			    					<input type="text" class="form-control" minlength="14" maxlength="14" onkeypress="cpf_maskara()" id="cpf" name="cpf" placeholder="CPF" value="<?php echo $cpf ?>">
+			    					<input type="text" class="form-control" minlength="14" maxlength="14" onkeypress="cpf_maskara()" id="cpf" name="cpf" placeholder="CPF">
 			    				</div>
 		    				</div>
 		    				<div class="">
@@ -102,39 +68,38 @@
 	          					<div class="select-wrap">
 	                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
 
-	                      <select id="servico" name="servico" class="form-control" selected="<?php echo $nome ?>">
+	                      <select id="servico" name="servico" class="form-control">
 	                      	<option value="">Selecione o serviço</option>
-	                        <option value="Clareamento Dental" <?php if($servico == 'Clareamento Dental'): ?> selected="selected"<?php endif; ?>>Clareamento Dental</option>
-	                        <option value="Cliníca Geral e Prevenção" <?php if($servico == 'Cliníca Geral e Prevenção'): ?> selected="selected"<?php endif; ?>>Cliníca Geral e Prevenção</option>
-	                        <option value="Exames" <?php if($servico == 'Exames'): ?> selected="selected"<?php endif; ?>>Exames (Documentação Odontológica)</option>
-	                        <option value="Odontologia (Clínica)" <?php if($servico == 'Odontologia (Clínica)'): ?> selected="selected"<?php endif; ?>>Odontologia (Clínica)</option>
-	                        <option value="Outros serviços" <?php if($servico == 'Outros serviços'): ?> selected="selected"<?php endif; ?>>Outros serviços</option>
+	                        <option value="Clareamento Dental" >Clareamento Dental</option>
+	                        <option value="Cliníca Geral e Prevenção">Cliníca Geral e Prevenção</option>
+	                        <option value="Exames" >Exames (Documentação Odontológica)</option>
+	                        <option value="Odontologia (Clínica)">Odontologia (Clínica)</option>
+	                        <option value="Outros serviços" >Outros serviços</option>
 	                      </select>
 	                    </div>
 			              </div>
 			    				</div>
 		    					<div class="form-group">
-			    					<input type="text" id="telefone" minlength="14" maxlength="14" onkeypress="telefone_mask()" class="form-control" name="telefone" placeholder="Telefone" value="<?php echo $telefone ?>">
+			    					<input type="text" id="telefone" minlength="14" maxlength="14" onkeypress="telefone_mask()" class="form-control" name="telefone" placeholder="Telefone">
 			    				</div>
 		    				</div>
 		    				<div class="">
 			    				<div class="form-group">
 			    					<div class="input-wrap">
-			            		<input type="date" class="form-control appointment_date" name="data" placeholder="Date" value="<?php echo $data ?>">
+			            		<input type="date" class="form-control appointment_date" name="data" placeholder="Date">
 								<div class="icon"><span class="ion-ios-arrow-down"></span></div>
-	                      <select id="horario" name="horario" class="form-control" value="<?php echo $horario ?>">
+	                      <select id="horario" name="horario" class="form-control">
 	                      	<option value="">Horário</option>
-	                        <option value="11:00" <?php if($horario == '11:00'): ?> selected="selected"<?php endif; ?>>11:00</option>
-	                        <option value="12:30" <?php if($horario == '12:30'): ?> selected="selected"<?php endif; ?>>12:00</option>
-	                        <option value="16:30" <?php if($horario == '16:30'): ?> selected="selected"<?php endif; ?>>16:30</option>
-	                        <option value="18:00" <?php if($horario == '18:00'): ?> selected="selected"<?php endif; ?>>18:00</option>
+	                        <option value="11:00">11:00</option>
+	                        <option value="12:30">12:00</option>
+	                        <option value="16:30">16:30</option>
+	                        <option value="18:00">18:00</option>
 	                      </select>
 	                    </div>
 			    				</div>
 		    				</div>
 			            <div class="form-group">
-                          <input type="hidden" name="id" value=<?php echo $id ?>>
-			              <input type="submit" name="update" value="Atualizar" class="btn btn-secondary py-3 px-4">
+            			    <input type="submit" name="update" value="Cadastrar" class="btn btn-secondary py-3 px-4">
 			            </div>
 		    				</div>
 		    			</form>
