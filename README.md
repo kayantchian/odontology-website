@@ -6,8 +6,8 @@ Um projeto de Escola: fazer um site com sistema de cadastro de clientes, painel 
 ✔ Login (adm)  <br>
 ✔ Editar cadastros (adm) <br>
 ✔ Exibir cadastros (adm) <br>
-❌ Deletar cadastros (adm) <br>
-❌ Pesquisar cadastros (adm)
+✔ Deletar cadastros (adm) <br>
+✔ Pesquisar cadastros (adm)
 </p> 
 ---
 
