@@ -62,7 +62,7 @@
 			    					<input type="text" class="form-control" minlength="14" maxlength="14" onkeypress="cpf_maskara()" id="cpf" name="cpf" placeholder="CPF">
 			    				</div>
 		    				</div>
-		    				<div class="">
+		    		it push		<div class="">
 		    					<div class="form-group">
 			    					<div class="form-field">
 	          					<div class="select-wrap">
