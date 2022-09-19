@@ -25,20 +25,25 @@ include_once "conexao.php";
 ?>
 
 <?php
-$nome = $_POST['nome'];
-$cpf = $_POST['cpf'];
-$telefone = $_POST['telefone'];
-$servico = $_POST['servico'];
-$data = $_POST['data'];
-$horario = $_POST['horario'];
+if(isset($_POST['submit']) && !empty($_POST['nome']) && !empty($_POST['cpf']) && !empty($_POST['telefone']) && !empty($_POST['servico']) && !empty($_POST['data']) && !empty($_POST['horario'])){
+	$nome = $_POST['nome'];
+	$cpf = $_POST['cpf'];
+	$telefone = $_POST['telefone'];
+	$servico = $_POST['servico'];
+	$data = $_POST['data'];
+	$horario = $_POST['horario'];
 
 
-$inserir = $con -> query ("INSERT INTO clientes VALUES ('0', '$nome', '$cpf', '$telefone', '$servico','$data','$horario')");
-    if ($inserir) {
-        $code = 1;
-    } else {
-        $code = 0;
-    }
+	$inserir = $con -> query ("INSERT INTO clientes VALUES ('0', '$nome', '$cpf', '$telefone', '$servico','$data','$horario')");
+	    if ($inserir) {
+		$code = 1;
+	    } else {
+		$code = 0;
+	    }
+}
+else {
+    header("location:../index.php");
+  }
 ?>
 
 <body>
