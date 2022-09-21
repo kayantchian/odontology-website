@@ -91,7 +91,7 @@
 			    				</div>
 		    				</div>
 			            <div class="form-group">
-			              <input type="submit" value="Cadastrar" class="btn btn-secondary py-3 px-4">
+			              <input type="submit" name="cadastrar" value="Cadastrar" class="btn btn-secondary py-3 px-4">
 			            </div>
 		    				</div>
 		    			</form>
