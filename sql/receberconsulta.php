@@ -25,7 +25,7 @@ include_once "conexao.php";
 ?>
 
 <?php
-if(isset($_POST['submit']) && !empty($_POST['nome']) && !empty($_POST['cpf']) && !empty($_POST['telefone']) && !empty($_POST['servico']) && !empty($_POST['data']) && !empty($_POST['horario'])){
+if(isset($_POST['cadastrar']) && !empty($_POST['nome']) && !empty($_POST['cpf']) && !empty($_POST['telefone']) && !empty($_POST['servico']) && !empty($_POST['data']) && !empty($_POST['horario'])){
 	$nome = $_POST['nome'];
 	$cpf = $_POST['cpf'];
 	$telefone = $_POST['telefone'];
