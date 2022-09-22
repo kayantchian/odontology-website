@@ -56,6 +56,7 @@
                             </div>
                             <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
                                 <p class="mb-0 register-link"><a href="cadastrar.php" class="mr-3">Cadastrar</a><a href="sair.php" class="mr-3">Sair</a></p>
+				<p class="mb-0 register-link"><a href="../index.php" class="mr-3">Home</a></p>
                             </div>
                         </div>
                     </div>
